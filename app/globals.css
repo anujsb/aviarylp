@@ -104,6 +104,12 @@ body {
   opacity: 95%;
 }
 
+@media only screen and (max-width: 768px) {
+  .brain {
+    background-image: none; /* Hides the background image on mobile */
+  }
+}
+
 /* testi */
 @keyframes slide-forward {
   from {

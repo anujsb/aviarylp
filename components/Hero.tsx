@@ -37,10 +37,10 @@ import Video from "./Video";
 
 export const BackgroundCellAnimation: React.FC = () => {
   return (
-    <div className="relative h-full w-full bg-[#fafafa] flex justify-center items-center overflow-hidden">
+    <div className="relative h-full w-full flex justify-center items-center overflow-hidden">
       <BackgroundCellCore />
-      <div className="relative z-50 px-4 md:px-8 lg:px-16 text-center mt-20">
-        <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-7xl font-medium text-center bg-clip-text text-transparent bg-gradient-to-b from-neutral-900 to-neutral-500 mt-16 md:mt-20 lg:mt-28">
+      <div className="relative z-50 px-4 md:px-8 lg:px-16 text-center pointer-events-none select-none mt-20">
+        <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-7xl font-medium text-center bg-clip-text text-transparent bg-gradient-to-b from-neutral-900 to-neutral-500 mt-16 md:mt-20 lg:mt-28 pointer-events-none">
           Turn Video Chaos into Clarity
         </h1>
         <p className="text-neutral-700 text-sm sm:text-base md:text-lg lg:text-xl my-4 lg:my-6">
