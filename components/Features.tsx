@@ -109,7 +109,7 @@ const Features = () => {
               Search millions of videos automatically, no tagging needed.
             </p>
             <div className="p-2 bg-light-lavender rounded-xl border mr-4 mt-5 min-h-48 bg-white">
-              <Image src="" width={70} height={70} alt="image" />
+              {/* <Image src="Search.svg" width={70} height={70} alt="image" /> */}
               <p className="text-gray-300">PlaceHolder for image</p>
             </div>
           </div>
@@ -131,7 +131,7 @@ const Features = () => {
               Generate detailed reports and insights on your video collection.
             </p>
             <div className="p-2 bg-light-lavender rounded-xl border mr-4 mt-5 min-h-48 bg-white">
-              <Image src="" width={70} height={70} alt="image" />
+              {/* <Image src="Search.svg" width={70} height={70} alt="image" /> */}
               <p className="text-gray-300">PlaceHolder for image</p>
             </div>
           </div>
