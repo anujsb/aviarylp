@@ -5,8 +5,8 @@ import Video from "./Video";
 
 export const Hero: React.FC = () => {
   return (
-    <div className="relative h-screen w-full bg-[#fafafa] flex justify-center items-center overflow-hidden">
-      <div className="relative z-50 px-4 md:px-8 lg:px-16 text-center">
+    <div className="relative h-full w-full bg-[#fafafa] flex justify-center items-center overflow-hidden">
+      <div className="relative z-50 px-4 md:px-8 lg:px-16 text-center mt-20">
         <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-7xl font-medium text-center bg-clip-text text-transparent bg-gradient-to-b from-neutral-900 to-neutral-500 mt-16 md:mt-20 lg:mt-28">
           Turn Video Chaos into Clarity
         </h1>
