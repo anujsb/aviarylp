@@ -104,7 +104,6 @@ body {
   opacity: 95%;
 }
 
-
 /* testi */
 @keyframes slide-forward {
   from {
@@ -138,5 +137,3 @@ body {
 .animate-infinite-slider-reverse:hover {
   animation-play-state: paused;
 }
-
-
